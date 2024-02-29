@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "szorzotabla", "szorzotabla\szorzotabla.csproj", "{77BDB5AA-545C-4A93-8B11-D241F76F4F95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fibonacci", "fibonacci\fibonacci.csproj", "{0EB34F30-16B3-46DA-AEE4-70CCCE16DA5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pascal", "pascal\pascal.csproj", "{CBA738CA-FCB9-440A-9E63-E6DBF3D29B9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VillogoGomb", "Feladatok_3het\VillogoGomb.csproj", "{ABC75618-1206-4051-A720-F205F28439D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veletlen", "Veletlen\Veletlen.csproj", "{24CAB7EF-DC9D-4640-B795-19B09A4CCA6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haromszog", "Haromszog\Haromszog.csproj", "{A8D9DC6F-F3F8-4E25-A681-460C7E85681C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karacsonyfa", "Karacsonyfa\Karacsonyfa.csproj", "{B5E2575A-08A3-4F82-893E-5BCE55D1DC2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77BDB5AA-545C-4A93-8B11-D241F76F4F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77BDB5AA-545C-4A93-8B11-D241F76F4F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77BDB5AA-545C-4A93-8B11-D241F76F4F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77BDB5AA-545C-4A93-8B11-D241F76F4F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EB34F30-16B3-46DA-AEE4-70CCCE16DA5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EB34F30-16B3-46DA-AEE4-70CCCE16DA5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EB34F30-16B3-46DA-AEE4-70CCCE16DA5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EB34F30-16B3-46DA-AEE4-70CCCE16DA5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBA738CA-FCB9-440A-9E63-E6DBF3D29B9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA738CA-FCB9-440A-9E63-E6DBF3D29B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA738CA-FCB9-440A-9E63-E6DBF3D29B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA738CA-FCB9-440A-9E63-E6DBF3D29B9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC75618-1206-4051-A720-F205F28439D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC75618-1206-4051-A720-F205F28439D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC75618-1206-4051-A720-F205F28439D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC75618-1206-4051-A720-F205F28439D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24CAB7EF-DC9D-4640-B795-19B09A4CCA6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24CAB7EF-DC9D-4640-B795-19B09A4CCA6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24CAB7EF-DC9D-4640-B795-19B09A4CCA6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24CAB7EF-DC9D-4640-B795-19B09A4CCA6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8D9DC6F-F3F8-4E25-A681-460C7E85681C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D9DC6F-F3F8-4E25-A681-460C7E85681C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D9DC6F-F3F8-4E25-A681-460C7E85681C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D9DC6F-F3F8-4E25-A681-460C7E85681C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5E2575A-08A3-4F82-893E-5BCE55D1DC2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E2575A-08A3-4F82-893E-5BCE55D1DC2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E2575A-08A3-4F82-893E-5BCE55D1DC2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E2575A-08A3-4F82-893E-5BCE55D1DC2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6ACF655-6C12-4BCB-8AA9-0B6B3E830093}
+	EndGlobalSection
+EndGlobal
