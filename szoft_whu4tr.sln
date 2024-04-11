@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Karacsonyfa", "Karacsonyfa\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_Hajos", "5_Hajos\5_Hajos.csproj", "{3BC44845-56A2-4E18-8156-B57FEFC41235}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_kigyo", "6_kigyo\6_kigyo.csproj", "{3B7788E5-5D6B-4748-BE8A-27009BFC3023}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_kigyo", "6_kigyo\6_kigyo.csproj", "{3B7788E5-5D6B-4748-BE8A-27009BFC3023}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_Databinding", "7_Databinding\7_Databinding.csproj", "{B6FB3C44-55B7-4936-9D35-2C2F467D8FBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{3B7788E5-5D6B-4748-BE8A-27009BFC3023}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B7788E5-5D6B-4748-BE8A-27009BFC3023}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B7788E5-5D6B-4748-BE8A-27009BFC3023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6FB3C44-55B7-4936-9D35-2C2F467D8FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6FB3C44-55B7-4936-9D35-2C2F467D8FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6FB3C44-55B7-4936-9D35-2C2F467D8FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6FB3C44-55B7-4936-9D35-2C2F467D8FBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
