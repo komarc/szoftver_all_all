@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace _6_kigyo
-{
+{ //asd
     internal class KígyóElem : PictureBox
     {
         public static int m = 20;
