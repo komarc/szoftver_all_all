@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace 9_softw_RemotelDbTest
+namespace _9_softw_RemotelDbTest
 {
     public partial class Form2 : Form
 {
@@ -16,7 +16,8 @@ namespace 9_softw_RemotelDbTest
     {
         InitializeComponent();
     }
-        private void Form2_Load(object sender, EventArgs e)
+
+    private void Form2_Load(object sender, EventArgs e)
     {
 
     }

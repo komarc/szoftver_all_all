@@ -1,4 +1,4 @@
-namespace softw_RemotelDbTest
+namespace _9_softw_RemotelDbTest
 {
     public partial class Form1 : Form
     {
@@ -28,7 +28,7 @@ namespace softw_RemotelDbTest
 
         private void textBoxId_TextChanged(object sender, EventArgs e)
         {
-            studentBindingSource.DataSource = studentContext.
+
         }
     }
 }

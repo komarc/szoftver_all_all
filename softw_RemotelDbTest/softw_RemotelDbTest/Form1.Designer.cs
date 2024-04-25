@@ -1,4 +1,4 @@
-﻿namespace softw_RemotelDbTest
+﻿namespace _9_softw_RemotelDbTest
 {
     partial class Form1
     {

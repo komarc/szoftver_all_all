@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace softw_RemotelDbTest.Models
+namespace _9_softw_RemotelDbTest.Models
 {
     public partial class StudentContext : DbContext
     {
