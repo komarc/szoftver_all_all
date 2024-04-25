@@ -115,6 +115,7 @@
             // 
             // textBoxId
             // 
+            textBoxId.DataBindings.Add(new Binding("Text", studentBindingSource, "Neptun", true));
             textBoxId.Location = new Point(111, 185);
             textBoxId.Name = "textBoxId";
             textBoxId.Size = new Size(79, 23);
@@ -123,10 +124,11 @@
             // 
             // textBoxNeptun
             // 
-            textBoxNeptun.Location = new Point(211, 185);
+            textBoxNeptun.Location = new Point(37, 42);
             textBoxNeptun.Name = "textBoxNeptun";
-            textBoxNeptun.Size = new Size(79, 23);
+            textBoxNeptun.Size = new Size(496, 23);
             textBoxNeptun.TabIndex = 3;
+            textBoxNeptun.TextChanged += textBoxNeptun_TextChanged;
             // 
             // textBoxName
             // 
