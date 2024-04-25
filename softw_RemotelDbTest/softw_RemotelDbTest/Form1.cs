@@ -8,9 +8,10 @@ namespace softw_RemotelDbTest
         }
         // Ezen a objektumon keresztül lehet majd elérni a távoli adatbázis elemeit
         Models.StudentContext studentContext = new Models.StudentContext();
+        
         private void Form1_Load(object sender, EventArgs e)
         {
-            studentBindingSource.DataSource = studentContext.Students.ToList();
+
         }
 
         private void buttonSave_Click(object sender, EventArgs e)
@@ -23,6 +24,11 @@ namespace softw_RemotelDbTest
             {
                 MessageBox.Show(kivétel.InnerException.Message);
             }
+        }
+
+        private void textBoxId_TextChanged(object sender, EventArgs e)
+        {
+            studentBindingSource.DataSource = studentContext.
         }
     }
 }
