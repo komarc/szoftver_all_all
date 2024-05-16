@@ -1,4 +1,4 @@
-﻿namespace _11_LINQ
+﻿namespace Zhfógyakorlasutolso
 {
     partial class Form1
     {
@@ -35,47 +35,42 @@
             // 
             // button1
             // 
-            button1.Location = new Point(48, 107);
-            button1.Margin = new Padding(6, 6, 6, 6);
+            button1.Location = new Point(60, 69);
             button1.Name = "button1";
-            button1.Size = new Size(184, 164);
+            button1.Size = new Size(150, 119);
             button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Text = "usercontrol 1";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(48, 425);
-            button2.Margin = new Padding(6, 6, 6, 6);
+            button2.Location = new Point(60, 217);
             button2.Name = "button2";
-            button2.Size = new Size(184, 173);
+            button2.Size = new Size(150, 115);
             button2.TabIndex = 1;
-            button2.Text = "button2";
+            button2.Text = "usercontrol 2";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
             // panel1
             // 
             panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            panel1.Location = new Point(279, 107);
-            panel1.Margin = new Padding(6, 6, 6, 6);
+            panel1.Location = new Point(333, 100);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1744, 1139);
+            panel1.Size = new Size(1474, 675);
             panel1.TabIndex = 2;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(2045, 1397);
+            ClientSize = new Size(1866, 838);
             Controls.Add(panel1);
             Controls.Add(button2);
             Controls.Add(button1);
-            Margin = new Padding(6, 6, 6, 6);
             Name = "Form1";
             Text = "Form1";
-            Load += Form1_Load;
             ResumeLayout(false);
         }
 

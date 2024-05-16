@@ -35,5 +35,10 @@ namespace _11_LINQ
 
             userControl2.Dock = DockStyle.Fill;
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

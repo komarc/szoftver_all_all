@@ -22,7 +22,12 @@ namespace gyakorlas
         private void FormAdd_Load(object sender, EventArgs e)
         {
             bindingSource1.DataSource = hozzaad;
-            
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

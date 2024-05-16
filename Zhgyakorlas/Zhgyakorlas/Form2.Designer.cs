@@ -1,6 +1,6 @@
-﻿namespace gyakorlas
+﻿namespace Zhgyakorlas
 {
-    partial class FormAdd
+    partial class Form2
     {
         /// <summary>
         /// Required designer variable.
@@ -30,66 +30,59 @@
         {
             components = new System.ComponentModel.Container();
             textBox1 = new TextBox();
-            bindingSource1 = new BindingSource(components);
             button1 = new Button();
             button2 = new Button();
+            bindingSource1 = new BindingSource(components);
             ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
             SuspendLayout();
             // 
             // textBox1
             // 
-            textBox1.DataBindings.Add(new Binding("Text", bindingSource1, "Name", true));
-            textBox1.Location = new Point(248, 172);
+            textBox1.Location = new Point(107, 61);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(200, 39);
             textBox1.TabIndex = 0;
             // 
-            // bindingSource1
-            // 
-            bindingSource1.DataSource = typeof(Models.Course);
-            // 
             // button1
             // 
             button1.DialogResult = DialogResult.OK;
-            button1.Location = new Point(656, 168);
+            button1.Location = new Point(385, 51);
             button1.Name = "button1";
-            button1.Size = new Size(150, 46);
+            button1.Size = new Size(150, 52);
             button1.TabIndex = 1;
-            button1.Text = "Ok";
+            button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
             button2.DialogResult = DialogResult.Cancel;
-            button2.Location = new Point(912, 165);
+            button2.Location = new Point(584, 54);
             button2.Name = "button2";
             button2.Size = new Size(150, 46);
             button2.TabIndex = 2;
-            button2.Text = "Mégse";
+            button2.Text = "button2";
             button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
             // 
-            // FormAdd
+            // Form2
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1212, 771);
+            ClientSize = new Size(800, 450);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(textBox1);
-            Name = "FormAdd";
-            Text = "FormAdd";
-            Load += FormAdd_Load;
+            Name = "Form2";
+            Text = "Form2";
+            Load += Form2_Load;
             ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private TextBox textBox1;
-        private BindingSource bindingSource1;
         private Button button1;
         private Button button2;
+        private BindingSource bindingSource1;
+        public TextBox textBox1;
     }
 }
